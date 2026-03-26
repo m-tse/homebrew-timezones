@@ -9,6 +9,11 @@ cask "timezones" do
 
   app "Time Zones.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Time Zones.app"]
+  end
+
   zap trash: [
     "~/Library/Preferences/com.improvmx.timezones.plist",
   ]

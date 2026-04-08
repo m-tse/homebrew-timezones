@@ -12,5 +12,5 @@ brew install --cask timezones
 ## Update
 
 ```bash
-brew upgrade --cask timezones
+brew update && brew upgrade --cask timezones
 ```

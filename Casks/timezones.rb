@@ -1,6 +1,6 @@
 cask "timezones" do
-  version "1.7.0"
-  sha256 "b6dd1ba511c78f346d447a086f54896772360641f96faa24e8906b9d8ad40a65"
+  version "1.8.0"
+  sha256 "ae8c2876052fabddf924d5c5fdb7ecb283618908af98fce5549217f85c58ca2c"
 
   url "https://github.com/m-tse/TimeZonesMenuBarApp/releases/download/v#{version}/TimeZones-#{version}.zip"
   name "Time Zones"
